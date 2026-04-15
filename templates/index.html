@@ -5,16 +5,29 @@ Home
 {% endblock tittle %}
 {% block content %}
 
-<div id="carouselExampleFade" class="carousel slide carousel-fade">
+<!-- Carousel -->
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{% static 'img/WhatsApp Image 2026-04-10 at 11.06.02.jpeg' %}" class="d-block w-100" alt="...">
+      <img src="{% static 'img/WhatsApp Image 2026-04-10 at 11.06.02.jpeg' %}" class="d-block w-100" alt="Jewelry Collection 1">
+      <div class="carousel-caption-custom">
+        <h2>Timeless Elegance</h2>
+        <p>Crafted by master artisans, for you.</p>
+      </div>
     </div>
     <div class="carousel-item">
-      <img src="{% static 'img/WhatsApp Image 2026-04-10 at 11.06.09.jpeg' %}" class="d-block w-100" alt="...">
+      <img src="{% static 'img/WhatsApp Image 2026-04-10 at 11.06.09.jpeg' %}" class="d-block w-100" alt="Jewelry Collection 2">
+      <div class="carousel-caption-custom">
+        <h2>Eclipse Collection</h2>
+        <p>18k Gold &amp; Onyx, pure opulence.</p>
+      </div>
     </div>
     <div class="carousel-item">
-      <img src="{% static 'img/WhatsApp Image 2026-04-10 at 11.06.18.jpeg' %}" class="d-block w-100" alt="...">
+      <img src="{% static 'img/WhatsApp Image 2026-04-10 at 11.06.18.jpeg' %}" class="d-block w-100" alt="Jewelry Collection 3">
+      <div class="carousel-caption-custom">
+        <h2>Starlight Series</h2>
+        <p>White Gold &amp; Diamonds that shine.</p>
+      </div>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -27,9 +40,84 @@ Home
   </button>
 </div>
 
-<div class="container marketing"> <!-- Three columns of text below the carousel --> <div class="row"> <div class="col-lg-4"> <svg aria-label="Placeholder" class="bd-placeholder-img rounded-circle" height="140" preserveAspectRatio="xMidYMid slice" role="img" width="140" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg> <h2 class="fw-normal">Heading</h2> <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p> <p><a class="btn btn-secondary" href="#">View details »</a></p> </div><!-- /.col-lg-4 --> <div class="col-lg-4"> <svg aria-label="Placeholder" class="bd-placeholder-img rounded-circle" height="140" preserveAspectRatio="xMidYMid slice" role="img" width="140" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg> <h2 class="fw-normal">Heading</h2> <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p> <p><a class="btn btn-secondary" href="#">View details »</a></p> </div><!-- /.col-lg-4 --> <div class="col-lg-4"> <svg aria-label="Placeholder" class="bd-placeholder-img rounded-circle" height="140" preserveAspectRatio="xMidYMid slice" role="img" width="140" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg> <h2 class="fw-normal">Heading</h2> <p>And lastly this, the third column of representative placeholder content.</p> <p><a class="btn btn-secondary" href="#">View details »</a></p> </div><!-- /.col-lg-4 --> </div><!-- /.row --> <!-- START THE FEATURETTES --> <hr class="featurette-divider"> <div class="row featurette"> <div class="col-md-7"> <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-body-secondary">It’ll blow your mind.</span></h2> <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p> </div> <div class="col-md-5"> <svg aria-label="Placeholder: 500x500" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" height="500" preserveAspectRatio="xMidYMid slice" role="img" width="500" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg> </div> </div> <hr class="featurette-divider"> <div class="row featurette"> <div class="col-md-7 order-md-2"> <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for yourself.</span></h2> <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p> </div> <div class="col-md-5 order-md-1"> <svg aria-label="Placeholder: 500x500" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" height="500" preserveAspectRatio="xMidYMid slice" role="img" width="500" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg> </div> </div> <hr class="featurette-divider"> <div class="row featurette"> <div class="col-md-7"> <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-body-secondary">Checkmate.</span></h2> <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p> </div> <div class="col-md-5"> <svg aria-label="Placeholder: 500x500" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" height="500" preserveAspectRatio="xMidYMid slice" role="img" width="500" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg> </div> </div> <hr class="featurette-divider"> <!-- /END THE FEATURETTES --> </div>
+<!-- Marketing / Three Columns -->
+<div class="container marketing">
+    <div class="row text-center">
+    <div class="col-lg-4">
+      <img src="{% static 'img/ring_profile.png' %}"
+        class="rounded-circle" width="140" height="140"
+        style="object-fit: cover; border: 4px solid #ffcfc3;"
+        alt="Rings Collection">
+      <h2 class="fw-normal mt-3">Rings</h2>
+      <p>Exquisite rings for every occasion — from solitaire diamonds to vintage gold bands.</p>
+      <p><a class="btn btn-secondary" href="#">View details »</a></p>
+    </div>
+    <div class="col-lg-4">
+      <img src="{% static 'img/WhatsApp Image 2026-04-10 at 11.06.09.jpeg' %}"
+        class="rounded-circle" width="140" height="140"
+        style="object-fit: cover; border: 4px solid #ffcfc3;"
+        alt="Necklaces Collection">
+      <h2 class="fw-normal mt-3">Necklaces</h2>
+      <p>Stunning necklaces crafted with precision — from layered gold chains to pearl drops.</p>
+      <p><a class="btn btn-secondary" href="#">View details »</a></p>
+    </div>
+    <div class="col-lg-4">
+      <img src="{% static 'img/WhatsApp Image 2026-04-10 at 11.06.18.jpeg' %}"
+        class="rounded-circle" width="140" height="140"
+        style="object-fit: cover; border: 4px solid #ffcfc3;"
+        alt="Earrings Collection">
+      <h2 class="fw-normal mt-3">Earrings</h2>
+      <p>From subtle studs to statement chandeliers — earrings that complete any look.</p>
+      <p><a class="btn btn-secondary" href="#">View details »</a></p>
+    </div>
+  </div>
 
+  <!-- Featurettes -->
+  <hr class="featurette-divider">
+  <div class="row featurette align-items-center">
+    <div class="col-md-7">
+      <h2 class="featurette-heading fw-normal lh-1">The Serenade Ring.
+        <span class="text-body-secondary">It'll take your breath away.</span>
+      </h2>
+      <p class="lead">Platinum-set diamonds arranged in a flowing wave — the Serenade Ring is our most celebrated piece, beloved by brides and connoisseurs alike.</p>
+    </div>
+    <div class="col-md-5">
+      <img src="{% static 'img/WhatsApp Image 2026-04-10 at 11.06.02.jpeg' %}"
+        class="featurette-image img-fluid mx-auto d-block rounded-3 shadow"
+        alt="Serenade Ring" style="max-height:340px; object-fit:cover; width:100%;">
+    </div>
+  </div>
 
+  <hr class="featurette-divider">
+  <div class="row featurette align-items-center">
+    <div class="col-md-7 order-md-2">
+      <h2 class="featurette-heading fw-normal lh-1">Eclipse Necklace.
+        <span class="text-body-secondary">See for yourself.</span>
+      </h2>
+      <p class="lead">18k gold and onyx come together in a bold, modern silhouette. The Eclipse Necklace is a statement of elegance and strength.</p>
+    </div>
+    <div class="col-md-5 order-md-1">
+      <img src="{% static 'img/WhatsApp Image 2026-04-10 at 11.06.09.jpeg' %}"
+        class="featurette-image img-fluid mx-auto d-block rounded-3 shadow"
+        alt="Eclipse Necklace" style="max-height:340px; object-fit:cover; width:100%;">
+    </div>
+  </div>
 
+  <hr class="featurette-divider">
+  <div class="row featurette align-items-center">
+    <div class="col-md-7">
+      <h2 class="featurette-heading fw-normal lh-1">Starlight Earrings.
+        <span class="text-body-secondary">Checkmate.</span>
+      </h2>
+      <p class="lead">White gold and brilliant-cut diamonds — the Starlight Earrings radiate sophistication from every angle, day or night.</p>
+    </div>
+    <div class="col-md-5">
+      <img src="{% static 'img/WhatsApp Image 2026-04-10 at 11.06.18.jpeg' %}"
+        class="featurette-image img-fluid mx-auto d-block rounded-3 shadow"
+        alt="Starlight Earrings" style="max-height:340px; object-fit:cover; width:100%;">
+    </div>
+  </div>
+  <hr class="featurette-divider">
+</div>
 
 {% endblock content %}
